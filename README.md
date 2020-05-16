@@ -1,6 +1,6 @@
 # Full Stack To-Do List
 
-A Fill Stack PERN Application (PostgreSQL, Express, React, Node) that explores RESTful API's in a CRUD App fo taking and stoing notes from a user.
+A Fill Stack PERN Application (PostgreSQL, Express, React, Node) that explores RESTful API's in a CRUD (Create, Read, Update, Delete) App that takes and stores to-do notes for a user.
 
 ---
 
