@@ -28,4 +28,33 @@ psql
 
 Then open up the [**database.sql**](database.sql) file and copy the `CREATE DATABASE` and `CREATE TABLE` commands into the psql command line. This will create your database and your table to store the descriptions of the to-do notes.
 
+Update the [**db.js**](db.js) file with your `User` field from the Postgres (and any password if applicable). Then from the comman line, start up the server (in the server directory) by typing in:
+
+```
+npm start
+```
+
+Open up a new terminal, and then navigate to the [**Client**](client) directory. From here in the command line, also type in:
+
+```
+npm start
+```
+
+This will start up the Frontend, React interface. From here you will see the Todo User Interface. Todos can then be written, viewed, updated of deleted, this will be reflected in the Posgres database!
+
+---
+
+<table>
+   <tr>
+      <td>Adding a Todo</td>
+       <td>Viewing Todo's</td>
+       <td>Editing a Todo</td>
+   </tr>
+   <tr>
+     <td valign="top"><img src='./public/images/add.png' width="3000"/></td>
+     <td valign="top"><img src='./public/images/view.png' width="3000"/></td>
+      <td valign="top"><img src='./public/images/edit.png' width="3000"/></td>
+   </tr>
+  </table>
+
 ---
