@@ -2,6 +2,8 @@
 
 A Fill Stack PERN Application (PostgreSQL, Express, React, Node) that explores RESTful API's in a CRUD (Create, Read, Update, Delete) App that takes and stores to-do notes for a user.
 
+<img src= 'public/images/diagram.png' />
+
 ---
 
 ## How to Run
